@@ -11,24 +11,31 @@ function Navbar({ className }: { className?: string }) {
       className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
     >
       <Menu setActive={setActive}>
-        <MenuItem setActive={setActive} active={active} item="Services">
+        <Link href={"/"}>
+          <MenuItem
+            setActive={setActive}
+            active={active}
+            item="Home"
+          ></MenuItem>
+        </Link>
+        <MenuItem setActive={setActive} active={active} item="Our Shoes">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">Web Development</HoveredLink>
-            <HoveredLink href="/interface-design">Interface Design</HoveredLink>
-            <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-            <HoveredLink href="/branding">Branding</HoveredLink>
+            <HoveredLink href="/shoes">All Shoes</HoveredLink>
+            <HoveredLink href="/shoes">Men</HoveredLink>
+            <HoveredLink href="/shoes">Women</HoveredLink>
+            <HoveredLink href="/shoes">Kids</HoveredLink>
+            <HoveredLink href="/shoes">Babies</HoveredLink>
+            <HoveredLink href="/shoes">Sports</HoveredLink>
           </div>
         </MenuItem>
-        
-        <MenuItem setActive={setActive} active={active} item="Pricing">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Hobby</HoveredLink>
-            <HoveredLink href="/individual">Individual</HoveredLink>
-            <HoveredLink href="/team">Team</HoveredLink>
-            <HoveredLink href="/enterprise">Enterprise</HoveredLink>
-          </div>
-        </MenuItem>
-      </Menu>
+      <Link href={"/Contact"}>
+        <MenuItem
+          setActive={setActive}
+          active={active}
+          item="Contact"
+        ></MenuItem>
+      </Link>
+      </Menu>{" "}
     </div>
   );
 }
