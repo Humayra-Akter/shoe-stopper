@@ -21,14 +21,13 @@ function HeroSection() {
           Shoe-Stopper, where finding your perfect pair is not just a purchase,
           but a journey towards confidence and self-expression.
         </p>
-        <div className="mt-4">
+        <div className="mt-6">
           <Link href={"/shoes"}>
-            {" "}
             <Button
               borderRadius="1.75rem"
-              className="bg-white dark:bg-slate-900 text-black dark:text-white border-blue-900 dark:border-slate-800"
+              className="bg-white dark:bg-slate-900 text-black dark:text-white border-purple-400 dark:border-slate-800 h-14"
             >
-              Explore More
+              EXPLORE MORE
             </Button>
           </Link>
         </div>
