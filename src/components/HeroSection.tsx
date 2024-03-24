@@ -25,7 +25,7 @@ function HeroSection() {
           <Link href={"/shoes"}>
             <Button
               borderRadius="1.75rem"
-              className="bg-white dark:bg-slate-900 text-black dark:text-white border-purple-400 dark:border-slate-800 h-14"
+              className="bg-white dark:bg-slate-900 text-black dark:text-white border-purple-400 dark:border-slate-800"
             >
               EXPLORE MORE
             </Button>

@@ -7,7 +7,7 @@
       "price": 59.99,
       "category": "male",
       "isFeatured": true,
-      "image": "../images/1.jpg"
+      "image": "/images/featured/1.jpg"
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "price": 79.99,
       "category": "sports",
       "isFeatured": true,
-      "image": "../images/2.jpg"
+      "image": "/images/featured/2.jpg"
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "price": 39.99,
       "category": "female",
       "isFeatured": true,
-      "image": "../images/6.jpg"
+      "image": "/images/featured/6.jpg"
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "price": 29.99,
       "category": "kid",
       "isFeatured": false,
-      "image": "../images/8.jpg"
+      "image": "/images/featured/8.jpg"
     }
   ]
 }
