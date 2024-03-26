@@ -6,8 +6,10 @@ import { Shoes } from "@/components/Shoes";
 export default function Home() {
   return (
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
-      <HeroSection />
-      <MenShoes />
+      <div className="flex mt-28">
+        <HeroSection />
+        <MenShoes />
+      </div>
       <Shoes />
       <FeaturedShoes />
     </main>
