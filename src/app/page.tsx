@@ -9,10 +9,10 @@ export default function Home() {
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
       <div className="flex mt-28">
         <HeroSection />
-        <MenShoes />
-      </div>
-      <div className="h-96 flex items-center justify-center border-2 border-slate-400">
         <EvervaultCard />
+      </div>
+      <div className="flex items-center justify-center">
+        <MenShoes />
       </div>
       <Shoes />
       <FeaturedShoes />
