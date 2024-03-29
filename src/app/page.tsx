@@ -9,8 +9,10 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
       <ImageSlider />
-      <SVGMaskEffect />
-      <HeroSection />
+      <div className="flex items-center justify-center mt-24">
+        <SVGMaskEffect />
+        <HeroSection />
+      </div>
 
       <div className="flex items-center justify-center">
         <MenShoes />

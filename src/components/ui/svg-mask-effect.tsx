@@ -6,12 +6,14 @@ import { cn } from "@/utils/cn";
 export const MaskContainer = ({
   children,
   revealText,
+  revealImageUrl,
   size = 10,
   revealSize = 600,
   className,
 }: {
   children?: string | React.ReactNode;
   revealText?: string | React.ReactNode;
+  revealImageUrl?: string;
   size?: number;
   revealSize?: number;
   className?: string;
@@ -42,7 +44,7 @@ export const MaskContainer = ({
       ref={containerRef}
       className={cn("h-screen relative", className)}
       animate={{
-        backgroundColor: isHovered ? "var(--slate-900)" : "var(--white)",
+        backgroundColor: isHovered ? "var(--slate-900)" : "var(--blue-100)",
       }}
     >
       <motion.div
@@ -70,7 +72,8 @@ export const MaskContainer = ({
       </motion.div>
 
       <div className="w-96 h-96 mt-32 flex items-center justify-center  text-white">
-        {revealText}
+        {revealImageUrl && <img src={revealImageUrl} alt="Reveal Image" />}
+        {revealText && !revealImageUrl && revealText}
       </div>
     </motion.div>
   );
