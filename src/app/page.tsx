@@ -2,7 +2,6 @@ import FeaturedShoes from "@/components/FeaturedShoes";
 import HeroSection from "@/components/HeroSection";
 import { ImageSlider } from "@/components/ImageSlider";
 import { MenShoes } from "@/components/MenShoes";
-import { Shoes } from "@/components/Shoes";
 import { SVGMaskEffect } from "@/components/SVGMaskEffect";
 
 export default function Home() {
@@ -17,7 +16,7 @@ export default function Home() {
       <div className="flex items-center justify-center">
         <MenShoes />
       </div>
-      <Shoes />
+    
       <FeaturedShoes />
     </main>
   );
