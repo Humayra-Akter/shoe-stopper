@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import { cn } from "@/lib/utils";
+import { cn } from "@/utils/cn";
 
 export const MaskContainer = ({
   children,
@@ -69,7 +69,7 @@ export const MaskContainer = ({
         </div>
       </motion.div>
 
-      <div className="w-full h-full flex items-center justify-center  text-white">
+      <div className="w-96 h-96 mt-32 flex items-center justify-center  text-white">
         {revealText}
       </div>
     </motion.div>
