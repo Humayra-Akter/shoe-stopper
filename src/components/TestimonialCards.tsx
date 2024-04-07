@@ -67,20 +67,20 @@ function TestimonialCards() {
     },
   ];
 
- return (
-   <div>
-     <h1 className="mx-auto text-white text-center text-2xl font-bold">
-       Footprints of Satisfaction: Discover Our Customer Reviews
-     </h1>
-     <div className="h-[26rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-       <InfiniteMovingCards
-         items={testimonials}
-         direction="right"
-         speed="slow"
-       />
-     </div>
-   </div>
- );
+  return (
+    <div>
+      <h1 className="mx-auto text-white text-center text-2xl font-bold">
+        Footprints of Satisfaction: Discover Our Customer Reviews
+      </h1>
+      <div className="h-[26rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.1] items-center justify-center relative overflow-hidden">
+        <InfiniteMovingCards
+          items={testimonials}
+          direction="right"
+          speed="slow"
+        />
+      </div>
+    </div>
+  );
 }
 
 export default TestimonialCards;
