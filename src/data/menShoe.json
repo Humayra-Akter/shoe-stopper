@@ -1,0 +1,139 @@
+{
+  "shoes": [
+    {
+      "id": 1,
+      "name": "Adidas Ultraboost",
+      "detail": "High-performance running shoes with Boost cushioning for maximum energy return.",
+      "price": 150,
+      "is_featured": true,
+      "category": "Running",
+      "image": "/images/men/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Nike Air Max 270",
+      "detail": "Iconic Air Max cushioning for all-day comfort and style.",
+      "price": 120,
+      "is_featured": false,
+      "category": "Lifestyle",
+      "image": "/images/men/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "New Balance Fresh Foam 1080v11",
+      "detail": "Plush cushioning and a breathable upper make these ideal for long runs.",
+      "price": 160,
+      "is_featured": true,
+      "category": "Running",
+      "image": "/images/men/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Puma Suede Classic",
+      "detail": "Timeless design with a suede upper and rubber outsole for traction.",
+      "price": 70,
+      "is_featured": false,
+      "category": "Lifestyle",
+      "image": "/images/men/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Brooks Ghost 13",
+      "detail": "Versatile running shoes with balanced cushioning and a smooth ride.",
+      "price": 130,
+      "is_featured": false,
+      "category": "Running",
+      "image": "/images/men/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Converse Chuck Taylor All Star",
+      "detail": "Classic canvas sneakers with a timeless silhouette.",
+      "price": 55,
+      "is_featured": false,
+      "category": "Lifestyle",
+      "image": "/images/men/6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "ASICS Gel-Kayano 27",
+      "detail": "Stable and supportive shoes for overpronators, ideal for long-distance running.",
+      "price": 160,
+      "is_featured": true,
+      "category": "Running",
+      "image": "/images/men/7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Vans Old Skool",
+      "detail": "Iconic skate shoes with a durable canvas and suede upper.",
+      "price": 60,
+      "is_featured": false,
+      "category": "Lifestyle",
+      "image": "/images/men/8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Salomon Speedcross 5",
+      "detail": "Aggressive grip and precise foothold make these shoes perfect for trail running.",
+      "price": 130,
+      "is_featured": true,
+      "category": "Running",
+      "image": "/images/men/9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Reebok Classic Leather",
+      "detail": "Timeless style with a soft leather upper and EVA midsole for cushioning.",
+      "price": 75,
+      "is_featured": false,
+      "category": "Lifestyle",
+      "image": "/images/men/10.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Under Armour HOVR Phantom 2",
+      "detail": "Comfortable and responsive running shoes with UA HOVR cushioning technology.",
+      "price": 150,
+      "is_featured": true,
+      "category": "Running",
+      "image": "/images/men/11.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Adidas Superstar",
+      "detail": "Iconic shell-toe sneakers with a timeless design.",
+      "price": 80,
+      "is_featured": false,
+      "category": "Lifestyle",
+      "image": "/images/men/12.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Saucony Guide 14",
+      "detail": "Stable and supportive shoes for mild to moderate overpronators.",
+      "price": 120,
+      "is_featured": false,
+      "category": "Running",
+      "image": "/images/men/13.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Fila Disruptor II",
+      "detail": "Chunky sneakers with a retro-inspired design.",
+      "price": 65,
+      "is_featured": false,
+      "category": "Lifestyle",
+      "image": "/images/men/14.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Mizuno Wave Rider 24",
+      "detail": "Smooth and responsive shoes with Wave Plate technology for cushioning and stability.",
+      "price": 130,
+      "is_featured": true,
+      "category": "Running",
+      "image": "/images/men/15.jpg"
+    }
+  ]
+}
